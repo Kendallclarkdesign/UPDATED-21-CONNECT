@@ -1,0 +1,302 @@
+.project-onboarding-form-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.project-onboarding-form-navbar-interactive {
+  fill: var(--dl-color-gray-black);
+  color: #100b0b;
+  width: 100%;
+  height: 109px;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+ 
+.project-onboarding-form-branding1 {
+  gap: var(--dl-layout-space-halfunit);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.project-onboarding-form-logo1 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+ 
+.project-onboarding-form-logo1:hover {
+  transform: rotate(360deg);
+}
+ 
+.project-onboarding-form-company1 {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+ 
+.project-onboarding-form-text10 {
+  font-style: normal;
+}
+ 
+.project-onboarding-form-text11 {
+  color: #ef8b42;
+  font-weight: 700;
+}
+ 
+.project-onboarding-form-items1 {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.project-onboarding-form-links1 {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.project-onboarding-form-link1 {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+ 
+.project-onboarding-form-link2 {
+  color: #000000;
+  text-decoration: none;
+}
+ 
+.project-onboarding-form-text12 {
+  color: #000000;
+}
+ 
+.project-onboarding-form-link3 {
+  color: #000000;
+  text-decoration: none;
+}
+ 
+.project-onboarding-form-link4 {
+  color: #000000;
+  text-decoration: none;
+}
+ 
+.project-onboarding-form-button1 {
+  color: #f7f7f7;
+  display: none;
+  background-color: #ef8b42;
+}
+ 
+.project-onboarding-form-text13 {
+  color: #ffffff;
+}
+ 
+.project-onboarding-form-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.project-onboarding-form-button2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: var(--dl-layout-space-oneandhalfunits);
+  border-radius: 56px;
+  padding-right: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: 20px;
+  background-color: #235536;
+}
+ 
+.project-onboarding-form-image {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+ 
+.project-onboarding-form-text14 {
+  color: #ffffff;
+  display: flex;
+}
+ 
+.project-onboarding-form-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #151515;
+}
+ 
+.project-onboarding-form-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-onboarding-form-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.project-onboarding-form-branding2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.project-onboarding-form-logo2 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+ 
+.project-onboarding-form-company2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.project-onboarding-form-menu-close {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.project-onboarding-form-icon1 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+ 
+.project-onboarding-form-items2 {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-onboarding-form-links2 {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-onboarding-form-text19 {
+  color: #ffffff;
+}
+ 
+.project-onboarding-form-text20 {
+  display: inline-block;
+}
+ 
+.project-onboarding-form-text21 {
+  display: inline-block;
+}
+ 
+.project-onboarding-form-text22 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .project-onboarding-form-navbar-interactive {
+    padding-top: var(--dl-layout-space-unit);
+  }
+  .project-onboarding-form-button1 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .project-onboarding-form-text13 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  .project-onboarding-form-button2 {
+    padding-top: var(--dl-layout-space-unit);
+    padding-left: var(--dl-layout-space-unit);
+    padding-right: var(--dl-layout-space-unit);
+    padding-bottom: var(--dl-layout-space-unit);
+  }
+  .project-onboarding-form-image {
+    width: 18px;
+    height: 18px;
+    display: flex;
+  }
+  .project-onboarding-form-text14 {
+    display: none;
+  }
+  .project-onboarding-form-button3 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .project-onboarding-form-text19 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .project-onboarding-form-navbar-interactive {
+    padding-top: var(--dl-layout-space-oneandhalfunits);
+  }
+  .project-onboarding-form-logo1 {
+    width: 36px;
+    height: 36px;
+  }
+  .project-onboarding-form-company1 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .project-onboarding-form-items1 {
+    display: none;
+  }
+  .project-onboarding-form-burger-menu {
+    display: flex;
+  }
+  .project-onboarding-form-button2 {
+    padding: 12px;
+  }
+  .project-onboarding-form-image {
+    width: 14px;
+    height: 14px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .project-onboarding-form-mobile-menu {
+    padding: 16px;
+  }
+}

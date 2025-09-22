@@ -1,0 +1,41 @@
+.tag-container {
+  display: flex;
+  position: relative;
+}
+ 
+.tag-tag1 {
+  transition: 0.3s;
+}
+ 
+.tag-tag1:hover {
+  color: #fff;
+  background-color: #235536;
+}
+ 
+.tag-tag2 {
+  transition: 0.3s;
+}
+ 
+.tag-tag2:hover {
+  color: #fff;
+  background-color: #235536;
+}
+ 
+@media(max-width: 991px) {
+  .tag-tag1 {
+    font-size: 12px;
+    padding-top: 12px;
+    white-space: nowrap;
+    padding-left: var(--dl-layout-space-unit);
+    padding-right: var(--dl-layout-space-unit);
+    padding-bottom: 12px;
+  }
+  .tag-tag2 {
+    font-size: 12px;
+    padding-top: 12px;
+    white-space: nowrap;
+    padding-left: var(--dl-layout-space-unit);
+    padding-right: var(--dl-layout-space-unit);
+    padding-bottom: 12px;
+  }
+}
