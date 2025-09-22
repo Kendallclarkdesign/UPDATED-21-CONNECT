@@ -1,11 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
 import './style.css'
 import ConfirmationPage from './views/confirmation-page'
@@ -16,19 +11,16 @@ import NotFound from './views/not-found'
 const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route component={ConfirmationPage} exact path="/confirmation-page" />
-        <Route
-          component={ProjectOnboardingForm}
-          exact
-          path="/project-onboarding-form"
-        />
-        <Route component={Home} exact path="/" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
-      </Switch>
+      <Routes>
+        <Route path="/confirmation-page" element={<ConfirmationPage />} />
+        <Route path="/project-onboarding-form" element={<ProjectOnboardingForm />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Navigate to="*" />} />
+      </Routes>
     </Router>
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+const root = ReactDOM.createRoot(document.getElementById('app'))
+root.render(<App />)
