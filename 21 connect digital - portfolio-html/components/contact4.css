@@ -1,0 +1,145 @@
+.contact4-contact20 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact4-max-width {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact4-section-title {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact4-content1 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact4-row {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.contact4-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.contact4-contact-info {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contact4-content3 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.contact4-text13 {
+  align-self: flex-start;
+  text-align: center;
+}
+ 
+.contact4-text14 {
+  align-self: flex-start;
+  text-align: left;
+}
+ 
+.contact4-email {
+  align-self: flex-start;
+  text-align: center;
+  text-decoration: underline;
+}
+ 
+.contact4-link {
+  align-self: flex-start;
+  text-align: center;
+  text-decoration: none;
+}
+ 
+.contact4-fragment1 {
+  display: contents;
+}
+ 
+.contact4-text15 {
+  display: inline-block;
+}
+ 
+.contact4-fragment2 {
+  display: contents;
+}
+ 
+.contact4-text16 {
+  display: inline-block;
+}
+ 
+.contact4-fragment3 {
+  display: contents;
+}
+ 
+.contact4-text17 {
+  display: inline-block;
+}
+ 
+.contact4-fragment4 {
+  display: contents;
+}
+ 
+.contact4-text18 {
+  display: inline-block;
+}
+ 
+.contact4-fragment5 {
+  display: contents;
+}
+ 
+.contact4-text19 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+ 
+.contact4-fragment6 {
+  display: contents;
+}
+ 
+.contact4-text20 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .contact4-row {
+    flex-direction: column;
+  }
+}
